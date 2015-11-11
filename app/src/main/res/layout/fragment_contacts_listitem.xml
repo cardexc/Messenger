@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/fragmentContacts_list"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="messanger.cardexc.com.messanger.ContactsFragment"
+    android:orientation="horizontal">
+
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+
+        android:id="@+id/fragmentContacts_listitem_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:minHeight="50dp"
+        android:minWidth="50dp"
+        app:border_color="@color/contactImage_border"
+        app:border_overlay="true"
+        app:border_width="1dp"
+        android:layout_margin="16dp" />
+
+    <TextView
+        android:id="@+id/fragmentContacts_listitem_name"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:gravity="center" />
+
+</LinearLayout>
